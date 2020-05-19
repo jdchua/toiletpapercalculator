@@ -24,6 +24,7 @@ class Sliders extends React.Component {
     let numOfRolls = Math.round((this.state.numOfDays * this.state.familyMembers) / 4.666)
     this.props.handler(numOfRolls)
     this.props.fam(this.state.familyMembers)
+    this.props.numOfDays(this.state.numOfDays)
   };
   
 

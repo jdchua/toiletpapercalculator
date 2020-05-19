@@ -10,7 +10,8 @@ class Main extends React.Component {
         super(props)
         this.state = {
             value: 1,
-            fam: 1
+            fam: 1,
+            numOfDays: 1
         }
     }
     
@@ -24,6 +25,10 @@ class Main extends React.Component {
     
     handleFam = (num) => {
         this.setState({fam: num})
+    }
+    
+    handleDays = (num) => {
+        this.setState({numOfDays: num})
     }
 
     
@@ -39,11 +44,11 @@ class Main extends React.Component {
                     </div>
                     <div>
                         <TolietPaper className="toiletPaper" num={this.state.value}/>
-                        <Sliders className="sliders" handler={this.handleChange} fam={this.handleFam} />
+                        <Sliders className="sliders" numOfDays={this.handleDays} handler={this.handleChange} fam={this.handleFam} />
                     </div>
                     <div className="bottomInfo">
                         <p>Based on about <span>20%</span> of a roll per person per day, you will be safe with <span>{this.state.value}</span> rolls for a family of <span>{this.state.fam}</span>!</p> 
-                        <p>There is no need to rush and stock up on more than that!</p>
+                        <p>This will last around <span>{this.state.numOfDays}</span> days in Quarantine. There is no need to rush and stock up on more than that!</p>
                     </div>
                 </Container>
             </div>
