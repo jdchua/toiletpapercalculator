@@ -1,0 +1,22 @@
+.tp {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tp img {
+    height: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tp img {
+        height: 42px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .tp img {
+        height: 50px;
+    }
+}

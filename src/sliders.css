@@ -1,0 +1,82 @@
+#discrete-slider {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#slider1 {
+    background: #f7f7f7;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#slider2 {
+    background: #f7f7f7;
+    padding: 20px 40px; 
+}
+
+.familyIcons {
+    height: 40px
+}
+
+#familyIcons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#calendar {
+    text-align: center;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/3/39/Blank_Calendar_page_icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75px;
+    background-position: center;
+}
+
+#calendar span {
+    display: inline-block;
+    margin: 34px 0px;
+    font-size: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+    #discrete-slider {
+        font-size: 18px;
+    }
+    
+    .familyIcons {
+        height: 48px
+    }
+    
+    #calendar {
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #slider1 {
+        margin-bottom: 0;
+        margin: 0 auto;
+    }
+    
+    #slider2 {
+        margin: 0 auto;
+    }
+    
+    .col-lg-5 {
+        flex: 0 0 45.666667% !important;
+        max-width: 45.666667% !important;
+    }
+    
+    #discrete-slider {
+        font-size: 22px;
+    }
+    
+    .familyIcons {
+        height: 55px
+    }
+    
+    #familyIcons {
+        margin-top: 14px;
+    }
+}

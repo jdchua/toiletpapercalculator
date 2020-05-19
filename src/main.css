@@ -1,0 +1,77 @@
+.howMany {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.howMany span {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.howMany p {
+    font-size: 28px;
+}
+
+.howMany p:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+
+.howMany p:nth-of-type(2) {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.howMany p:last-child {
+    margin-bottom: 30px;
+    font-size: 14px;
+    margin-top: -8px;
+}
+
+.bottomInfo {
+    margin-top: 30px;
+}
+
+.bottomInfo p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.bottomInfo p span {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media only screen and (min-width: 768px) {
+    .howMany p {
+        font-size: 35px;
+    }
+    
+    .howMany span {
+        font-size: 60px;
+    }
+    
+    .bottomInfo p {
+        font-size: 20px;
+    }
+    
+    .bottomInfo p span {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .howMany p:last-child {
+        font-size: 16px;
+    }
+    
+    .bottomInfo p {
+        font-size: 24px;
+    }
+    
+    .bottomInfo p span {
+        font-size: 27px;
+    }
+    
+}
+
+
