@@ -14,9 +14,3 @@
         height: 42px;
     }
 }
-
-@media only screen and (min-width: 992px) {
-    .tp img {
-        height: 50px;
-    }
-}
