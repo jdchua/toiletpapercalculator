@@ -22,7 +22,7 @@ npm install
 
 * Sliders make it easy to adjust calculator for individual cases
 
-* Images and calculations dynamically update withhout having to refresh page
+* Images and calculations dynamically update without having to refresh page
   
 * Responsive web design
 
