@@ -2,7 +2,7 @@ import React from "react"
 import './toiletPaper.css';
 
 
-// family members * num of days / 4.666 = num of rolls
+// number of people in household * num of days * num of visits (3 avg) * avg num of wipes (3 avg) / num of sheets (200) = num of rolls
 
 class ToiletPaper extends React.Component {
     
